@@ -1,0 +1,155 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_container {
+  justify-content: center;
+  align-items: center;
+  margin-left: 17em;
+  width: 100%;
+  max-width: 1200px;
+  /* margin: 10px auto; */
+  background-color: #fffcfc;
+  border: 1px;
+  border-radius: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
+  margin-top: -83em;
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  font: "Habibi", sans-serif bold;
+  font-size: medium;
+  color: #fff;
+  background-color: #1b6f21d1;
+  border-radius: 20px;
+}
+
+.form_input {
+  font-size: 1em;
+  padding: 20px 5em;
+  margin-top: 1em;
+  margin-left: 1em;
+  border: none;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 1150px;
+  color: #333;
+}
+
+.form_input:hover {
+  background-color: #f2f2f2;
+}
+
+.form_input:focus {
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form_input::placeholder {
+  color: #999;
+}
+
+.form_input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form_input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.label {
+  padding-left: 20px;
+}
+
+label {
+  font-size: 1.2em;
+}
+
+.select_menu {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-color: #1b6f21d1;
+  font-size: large;
+  margin-top: 1em;
+}
+h5 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.btn_container {
+  display: flex;
+}
+
+.lct_btn {
+  background-color: #ffffff;
+  border: 1px solid rgb(209, 213, 219);
+  border-radius: 0.5rem;
+  color: #111827;
+  font-family: "Habibi", sans-serif bold;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: 1px 10px 1px 10px;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+
+  text-align: center;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  /* -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-select: none; */
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+.lct_btn:hover {
+  background-color: #f9fafb;
+}
+
+.btn_submit {
+  padding: 17px 40px;
+  border-radius: 50px;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+  max-width: 100%;
+  width: 800px;
+  margin-left: 25%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.btn_submit:hover {
+  letter-spacing: 3px;
+  background-color: #1b6f21d1;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #43c24bab 0px 7px 29px 0px;
+}
+
+.btn_submit:active {
+  letter-spacing: 3px;
+  background-color: #1b6f21d1;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #43c24bab 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
